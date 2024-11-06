@@ -7,22 +7,46 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Osaamisen arviointi</title>
   </head>
+  <style>
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
   <body>
-    <div class="container mt-3">
-      <header>
-        <div>
-          <span>Testi</span>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Testi</a>
+
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navigaatio">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+           
+        <div class="collapse navbar-collapse" id="navigaatio">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Etusivu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kriteerit.html">Kriteerit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="osaamisen-arviointi.html">Osaamisen arviointi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutkinnon-muodostuminen.html">Tutkinnon muodostuminen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutkinnonosat.html">Tutkinnonosat</a>
+            </li>
+          </ul>
         </div>
-        <nav>
-          <a href="index.html">Etusivu</a>
-          <a href="kriteerit.html">Kriteerit</a>
-          <a href="osaamisen-arviointi.html">Osaamisen arviointi</a>
-          <a href="tutkinnon-muodostuminen.html">Tutkinnon muodostuminen</a>
-          <a href="tutkinnonosat.html">Tutkinnonosat</a>
-        </nav>
-      </header>
+      </div>
+    </nav>
       <main>
-        <section>
+        <section class="container">
           <h1>Osaamisen arviointi</h1>
           <p>Ammatilliset tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten ja arviointikriteerien mukaisesti. Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan arvosana määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena parhaiten sijoittuu.</p>
           <p>Yhteisten tutkinnon osien osa-alueet ja yritystoiminnan suunnittelu, työpaikkaohjaajaksi valmentautuminen, yrityksessä toimiminen ja huippuosaajana toimiminen tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten, osaamistavoitteiden ja arviointikriteerien mukaisesti. Arvosanat 2 ja 4 määräytyvät seuraavasti:</p>
@@ -30,7 +54,7 @@
           <p>4 = Opiskelijan osaamisen taso ylittää selkeästi 3-tason, mutta ei yllä 5-tasolle.</p>
         </section>
       </main>
-      <footer>
+      <footer class="bg-dark text-light text-center mx-auto p-3">
         Copyright &copy; 2024 <span>testi</span>
       </footer>
     </div>

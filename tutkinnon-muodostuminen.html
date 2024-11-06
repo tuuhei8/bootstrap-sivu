@@ -7,26 +7,50 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Tutkinnon muodostuminen</title>
   </head>
+  <style>
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
   <body>
-    <div class="container pt-5">
-      <header>
-        <div>
-          <span>Testi</span>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Testi</a>
+
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navigaatio">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+           
+        <div class="collapse navbar-collapse" id="navigaatio">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Etusivu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kriteerit.html">Kriteerit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="osaamisen-arviointi.html">Osaamisen arviointi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="tutkinnon-muodostuminen.html">Tutkinnon muodostuminen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutkinnonosat.html">Tutkinnonosat</a>
+            </li>
+          </ul>
         </div>
-        <nav>
-          <a href="index.html">Etusivu</a>
-          <a href="kriteerit.html">Kriteerit</a>
-          <a href="osaamisen-arviointi.html">Osaamisen arviointi</a>
-          <a href="tutkinnon-muodostuminen.html">Tutkinnon muodostuminen</a>
-          <a href="tutkinnonosat.html">Tutkinnonosat</a>
-        </nav>
-      </header>
+      </div>
+    </nav>
       <main>
-        <section>
+        <section class="container">
           <h1>Tutkinnon muodostuminen</h1>
           <p>Tieto- ja viestintätekniikan perustutkinnon laajuus on 180 osaamispistettä. Tutkinto muodostuu ammatillisista tutkinnon osista (145 osaamispistettä) ja yhteisistä tutkinnon osista (35 osaamispistettä).</p>
           <p>Ammatillisista tutkinnon osista pakollisia on 70—115 osaamispistettä ja valinnaisia 30—75 osaamispistettä. Tieto- ja viestintätekniikan perustutkinto sisältää seuraavat tutkintonimikkeet:</p>
-          <ul>
+          <ul class="list-unstyled">
             <li>elektroniikka-asentaja</li>
             <li>hyvinvointiteknologia-asentaja</li>
             <li>tietoverkkoasentaja</li>
@@ -35,8 +59,8 @@
           </ul>
         </section>
       </main>
-      <footer>
-          Copyright &copy; 2024 <span>testi</span>
+      <footer class="bg-dark text-light text-center mx-auto p-3">
+        Copyright &copy; 2024 <span>testi</span>
       </footer>
     </div>
   </body>

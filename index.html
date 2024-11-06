@@ -8,36 +8,54 @@
     <title>Etusivu</title>
   </head>
   <body>
-    <div class="container pt-5">
-      <header>
-        <div>
-          <span>Testi</span>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Testi</a>
+
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navigaatio">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+           
+        <div class="collapse navbar-collapse" id="navigaatio">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Etusivu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kriteerit.html">Kriteerit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="osaamisen-arviointi.html">Osaamisen arviointi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutkinnon-muodostuminen.html">Tutkinnon muodostuminen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutkinnonosat.html">Tutkinnonosat</a>
+            </li>
+          </ul>
         </div>
-        <nav>
-          <a href="index.html">Etusivu</a>
-          <a href="kriteerit.html">Kriteerit</a>
-          <a href="osaamisen-arviointi.html">Osaamisen arviointi</a>
-          <a href="tutkinnon-muodostuminen.html">Tutkinnon muodostuminen</a>
-          <a href="tutkinnonosat.html">Tutkinnonosat</a>
-        </nav>
-      </header>
+      </div>
+    </nav>
       <main>
-        <section>
-          <h2>Tutkinnon suorittaneen osaaminen</h2>
-          <p>Tieto- ja viestintätekniikan perustutkinnon suorittaneella on tieto- ja viestintätekniikan tehtävissä edellytetty ammattitaito, ja hän osaa toimia yhteistyökykyisesti tieto- ja viestintäteknisessä ympäristössä. Tutkinnon suorittanut osaa käyttää alan sanastoa, selvittää asiakkaan tarpeita ja tehdä asiakaslähtöisiä ratkaisuja tieto- ja viestintäteknisiin tehtäviin liittyen. Hän varmistaa, että työn lopputulos vastaa työlle asetettuja vaatimuksia.</p>
-        </section>
-        <section>
-          <h2>Työtehtäviä, joissa tutkinnon suorittanut voi toimia</h2>
-          <p><strong>Elektroniikka-asentaja</strong> osaa tehdä elektroniikka-asennuksiin liittyviä asennus-, testaus- ja huoltotöitä. Hän osaa käsitellä oikein elektroniikka-asennuksissa tarvittavia komponentteja ja materiaaleja sekä käyttää tarvittavia työ- ja mittavälineitä.</p>
-          <p><strong>Hyvinvointiteknologia</strong> osaa toimia sosiaali- ja terveysalan toimintaperiaatteiden ja arvojen mukaan. Hän osaa asentaa turvalaite- ja hyvinvointiteknologiajärjestelmiä sekä hyödyntää hyvinvointiteknologiaa asiakkaan toimintakyvyn ylläpitämiseksi. Hän varmistaa laitteiden turvallisen käytön ja opastaa asiakasta hyvinvointiteknologian käytössä.</p>
-          <p><strong>Tietoverkkoasentaja</strong> osaa tehdä tietoverkkokaapeloinnit asiakkaan vaatimusten ja ohjeiden mukaisesti. Hän huomioi tietoliikenneverkkojen rakenteet ja käytetyt materiaalit sekä tekee tarvittavia mittauksia ja testauksia järjestelmän toimivuuden varmistamiseksi.</p>
-          <p><strong>IT-tukihenkilö</strong> osaa toimia työasemien, verkko- ja lisälaitteiden sekä toimialueiden muodostamassa tieto- ja viestintäteknisessä ympäristössä. Hän toimii osana tietohallintoa sekä auttaa käyttäjiä erilaisissa teknisissä ongelmissa asiakkaan tiloissa tai etäyhteyden välityksellä.</p>
-          <p><strong>Ohjelmistokehittäjä</strong> osaa ohjelmoida, hyödyntää rajapintoja, käsitellä tietoa sekä käyttää versionhallintaa. Ohjelmistokehitystiimin jäsenenä toimiessaan hän kommunikoi asiakkaan kanssa, suunnittelee ohjelmiston toteutuksen ja varmistaa toteutettavien toimintojen laadun.</p>
-      
-          <p>Tieto- ja viestintätekniikan perustutkinnon rakenne ja sisältö on suunniteltu niin, että sähkö- ja automaatioalalla toimiminen -tutkinnon osan suorittaneella on rajoitettuun sähköpätevyyteen 3 määritelty soveltuva koulutus.</p>
-        </section>
+        <div class="container">
+          <section>
+            <h2>Tutkinnon suorittaneen osaaminen</h2>
+            <p>Tieto- ja viestintätekniikan perustutkinnon suorittaneella on tieto- ja viestintätekniikan tehtävissä edellytetty ammattitaito, ja hän osaa toimia yhteistyökykyisesti tieto- ja viestintäteknisessä ympäristössä. Tutkinnon suorittanut osaa käyttää alan sanastoa, selvittää asiakkaan tarpeita ja tehdä asiakaslähtöisiä ratkaisuja tieto- ja viestintäteknisiin tehtäviin liittyen. Hän varmistaa, että työn lopputulos vastaa työlle asetettuja vaatimuksia.</p>
+          </section>
+          <section class="pb-5">
+            <h2>Työtehtäviä, joissa tutkinnon suorittanut voi toimia</h2>
+            <p><strong>Elektroniikka-asentaja</strong> osaa tehdä elektroniikka-asennuksiin liittyviä asennus-, testaus- ja huoltotöitä. Hän osaa käsitellä oikein elektroniikka-asennuksissa tarvittavia komponentteja ja materiaaleja sekä käyttää tarvittavia työ- ja mittavälineitä.</p>
+            <p><strong>Hyvinvointiteknologia</strong> osaa toimia sosiaali- ja terveysalan toimintaperiaatteiden ja arvojen mukaan. Hän osaa asentaa turvalaite- ja hyvinvointiteknologiajärjestelmiä sekä hyödyntää hyvinvointiteknologiaa asiakkaan toimintakyvyn ylläpitämiseksi. Hän varmistaa laitteiden turvallisen käytön ja opastaa asiakasta hyvinvointiteknologian käytössä.</p>
+            <p><strong>Tietoverkkoasentaja</strong> osaa tehdä tietoverkkokaapeloinnit asiakkaan vaatimusten ja ohjeiden mukaisesti. Hän huomioi tietoliikenneverkkojen rakenteet ja käytetyt materiaalit sekä tekee tarvittavia mittauksia ja testauksia järjestelmän toimivuuden varmistamiseksi.</p>
+            <p><strong>IT-tukihenkilö</strong> osaa toimia työasemien, verkko- ja lisälaitteiden sekä toimialueiden muodostamassa tieto- ja viestintäteknisessä ympäristössä. Hän toimii osana tietohallintoa sekä auttaa käyttäjiä erilaisissa teknisissä ongelmissa asiakkaan tiloissa tai etäyhteyden välityksellä.</p>
+            <p><strong>Ohjelmistokehittäjä</strong> osaa ohjelmoida, hyödyntää rajapintoja, käsitellä tietoa sekä käyttää versionhallintaa. Ohjelmistokehitystiimin jäsenenä toimiessaan hän kommunikoi asiakkaan kanssa, suunnittelee ohjelmiston toteutuksen ja varmistaa toteutettavien toimintojen laadun.</p>
+            <p>Tieto- ja viestintätekniikan perustutkinnon rakenne ja sisältö on suunniteltu niin, että sähkö- ja automaatioalalla toimiminen -tutkinnon osan suorittaneella on rajoitettuun sähköpätevyyteen 3 määritelty soveltuva koulutus.</p>
+          </section>
+        </div>
       </main>
-      <footer>
+      <footer class="bg-dark text-light text-center mx-auto p-3">
         Copyright &copy; 2024 <span>testi</span>
       </footer>
     </div>
